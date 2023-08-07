@@ -6,14 +6,12 @@ body {
 
 nav {
   grid-area: menu;
-  height: 100%;
   color: #2c3e50;
   background: #bfbfbf;
 }
 
 main {
   grid-area: principal;
-  height: 100%;
   overflow: auto;
   background: #f2f2f2;
 }
@@ -157,7 +155,7 @@ button {
   justify-content: center;
   list-style: none;
   padding: 20px;
-  margin: 0;
+  margin: 20px;
 }
 
 .pag {
@@ -246,15 +244,15 @@ button {
   }
 
   nav {
-    height: 100%;
+    height: 90vh;
   }
 
   main {
-    height: 120vh;
+    height: 100vh;
   }
 
   footer {
-    /* width: 258px; */
+    height: 100%;
   }
 
   .contenido-mn {
@@ -279,6 +277,11 @@ button {
     transition: font-size 0.3s ease, border-bottom 0.3s ease;
   }
 
+  .categorias a {
+    color: #5c5c5c;
+    text-decoration: none;
+  }
+
   .categorias p:before {
     transform-origin: left center;
     transition: transform 0.3s ease;
@@ -296,7 +299,7 @@ button {
     gap: 30px;
   }
 
-  /* .footer-content {
+  .footer-content {
     height: 10vh;
-  } */
+  }
 }
